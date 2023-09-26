@@ -18,6 +18,8 @@ while menu != 0:
     if menu == 1:
         print("==============EXTRATO==============")
         print("Não há movimentações na conta!" if not saldo else saldo)
+        print("Último saque: R$", saque)
+        print("Último depósito: R$", deposito)
         print("Saldo: R$", saldo)
         print("===================================")
     elif menu == 2:
